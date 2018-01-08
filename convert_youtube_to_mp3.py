@@ -6,7 +6,7 @@ import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-#prompot the user for the link of the video to be convereted
+#prompt the user for the link of the video to be converted
 video_to_be_converted = input("Please provide the youtube url of the song you want to download as mp3: ")
 driver = webdriver.Chrome("path to chromedriver") # set the chrome webdriver
 driver.get("https://www.mp3converter.net/")
