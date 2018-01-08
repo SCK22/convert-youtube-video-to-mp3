@@ -1,5 +1,4 @@
 #Load the requiredlibraries
-from selenium import  webdriver
 from selenium import  *
 from selenium.webdriver.common.keys import Keys
 import time
